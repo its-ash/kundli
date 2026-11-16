@@ -1,0 +1,11 @@
+{
+  "id": "kundli",
+  "name": "Kundli",
+  "repo": "its-ash/kundli",
+  "package": "com.itsash.kundli",
+  "tagline": "Offline Vedic birth chart and Guna Milan marriage matching, North and South Indian styles.",
+  "description": "Kundli draws your Vedic birth chart on your phone with no internet. Save several profiles with name, birth date, time and place (about 340 cities with time zones). See the Lagna, Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu in a North Indian diamond or South Indian chart, with sign, degree, nakshatra, pada and house for each planet, using the Lahiri ayanamsa. The Moon sign, nakshatra and a full Vimshottari dasha and antardasha timeline are included. Guna Milan scores the Ashtakoota 36 points for two profiles with a breakdown of all eight kootas, and checks Manglik dosha. English with Sanskrit names. Traditional guidance, not certainty.",
+  "category": "Lifestyle",
+  "icon": "assets/icon/logo-1024.png",
+  "homepage": "https://kundli.itsash.in/"
+}
