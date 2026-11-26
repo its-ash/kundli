@@ -21,11 +21,14 @@ class AppModel extends ChangeNotifier {
     final raw = p.getString('profiles');
     if (raw != null) {
       try {
-        for (final j in jsonDecode(raw) as List) {
-          final pr = Profile.fromJson(j);
-          if (pr != null) list.add(pr);
+        final decoded = jsonDecode(raw);
+        if (decoded is List) {
+          for (final j in decoded) {
+            final pr = Profile.fromJson(j);
+            if (pr != null) list.add(pr);
+          }
         }
-      } on FormatException {
+      } on Object {
         // A damaged list is dropped rather than crashing the app.
       }
     }

@@ -61,7 +61,7 @@ class _ProfileFormState extends State<ProfileForm> {
 
   Future<void> _pickPlace() async {
     final p = await Navigator.of(context).push<Place>(MaterialPageRoute(builder: (_) => const PlacePicker()));
-    if (p != null) setState(() => _place = p);
+    if (p != null && mounted) setState(() => _place = p);
   }
 
   void _save() {
