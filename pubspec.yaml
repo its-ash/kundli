@@ -1,7 +1,7 @@
 name: kundli
 description: "Kundli: offline Vedic birth chart and Guna Milan marriage matching."
 publish_to: 'none'
-version: 1.0.1+2
+version: 1.0.2+3
 
 environment:
   sdk: ^3.12.2
